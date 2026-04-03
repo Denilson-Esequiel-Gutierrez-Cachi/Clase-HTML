@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+    margin: 0;
+    background-color: #F58549;
+    background-size: cover;;
+}
+
+h1{
+    color : #585123;
+    font-size: 36px;
+}
+p{
+    color: #585123;
+    font-size: 18px;
+    line-height: 1.6;
+    
+}
+#presentacion{
+    background: linear-gradient(120deg, #B65A32, #f58549);
+    padding:40px 30px;
+    text-align: center;
+    width: 100%;
+
+}
+.letra-pre{
+    color: #585123;
+    font-weight: bold;
+}
+.card {
+  background-color: #f4f4f4;
+  width: 80%;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 15px;
+}
+.seccion{
+    color: #F58549;
+    margin-bottom: 15px;
+    border-left: 6px solid #F2A65A;
+    padding-left: 10px;
+}
+.letra{
+    color: #F2A65A;
+    font-weight: bold;
+}
+em{
+    color: #772F1A;
+    font-style: italic;
+}
+li{
+    margin-bottom: 8px;
+    color: #B65A32;
+}
+ul{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+ol{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.tabla-juegos{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 15px;
+}
+
+th{
+    background-color: #585123;
+    color: #EEC170;
+    padding: 12px;
+    border: 1px solid #772F1A;
+}
+td{
+    background-color: #EEC170;
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #772F1A;
+}
+.codigo {
+  background-color: #585123;
+  color: #EEC170;
+  padding: 10px;
+  border-radius: 10px;
+}

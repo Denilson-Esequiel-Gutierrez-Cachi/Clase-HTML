@@ -4,52 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title id="Sobre Mi">Sobre Mi</title>
+    <link rel="stylesheet" href="styles.css">
+    
 </head>
-<body style="background-image: url('fondo.gif'); background-size: cover; color: rgb(194, 187, 187);">
-    <h1 id="presentacion">Hola soy Denilson Esequiel Gutierrez Cachi</h1>
-    <p><em>Estudiante de Informatica</em></p>
-    <hr>
+<body>
 
+    <header id="presentacion">
+        <h1>Denilson Esequiel Gutierrez Cachi</h1>
+        <p><em class="letra-pre">Estudiante de Informatica</em></p>
+    </header>
+
+    <section class="card">
     <h2 class="seccion">Sobre Mi</h2>
-    <p class="texto">Hola, Soy <strong>Denilson Esequiel Gutierrez Cachi</strong>: 
+    <p>Hola, Soy <strong class="letra">Denilson Esequiel Gutierrez Cachi</strong>
         soy estudiante de informática ya en 2 y 1 semestre, 
         con interés en la programación y el desarrollo de software.
-        Me gusta aprender nuevas tecnologías y mejorar mis habilidades poco a poco.
+        Me gusta aprender nuevas tecnologías y mejorar mis habilidades poco a poco, 
+        aprendiendo a programar en Python, Java, SQL y PHP, además de desarrollo web con HTML, CSS y JavaScript.
+         En mi tiempo libre me gusta jugar videojuegos, escuchar música y aprender sobre nuevas tendencias tecnológicas.
+         Estoy emocionado por seguir creciendo en el mundo de la informática y enfrentar nuevos desafíos.
     </p>
-    
-    <h2 class="gustos">Musica que escucho</h2>
-    <p><em>Me gusta escuchar música</em></p>
-    <ol id="listas-musica">
+    </section>
+
+    <section class="card">
+    <h2 class="seccion">Mi Soundtrack</h2>
+    <p><em>Me gusta escuchar músicas de:</em></p>
+    <ol>
         <li>Enjambre </li>
         <li>Jose Jose</li>
         <li>Mac Demarco</li>
         <li>Tame Impala</li>
         <li>The Weeknd</li>
     </ol>
+    </section>
 
-    <h2 class="gustos">Mis Intereses</h2>
+    <section class="card">
+    <h2 class="seccion">Mis Intereses</h2>
     <p><em>Me gusta programar</em></p>
-    <ul id="listas-intereses"> 
+    <ul> 
         <li>Programación en Python , Java , SQL , PHP</li>
         <li>Desarrollo web (HTML, CSS, JavaScript)</li>
         <li>Videojuegos y tecnología</li>
         <li>Resolución de problemas y lógica</li>
         <li>git y github</li>
     </ul>
+    </section>
+
+    <section class="card">
+    <h2 class="seccion">Mis Datos Personales en Juegos</h2>
+    <p><em>Si quieres echarle unas partidas</em></p>
     
-    <table class="tabla-juegos" border="1" style="width: 50%; margin: auto;">
-        <h2 style="text-align: center;">Mis datos Personales (juegos)</h2>
+    <table class="tabla-juegos">
         <tr>
+            <th>juegos</th>
             <th>NickName</th>
             <th>Servidor</th>
-            <th>Año de Creación</th>
         </tr>
         <tr>
+            <td>Fortnite</td>
             <td>Razerboy_gr</td>
             <td>America</td>
-            <td>2013</td>
+        </tr>
+        <tr>
+            <td>Warzone</td>
+            <td>Denilson</td>
+            <td>America</td>
+        </tr>
+        <tr>
+            <td>Brawl Stars</td>
+            <td>Razerboy_gr</td>
+            <td>America</td>
+        </tr>
+        <tr>
+            <td>Minecraft</td>
+            <td>Marslan_gr</td>
+            <td>America</td>
         </tr>
     </table>
-
+    </section>
+    <section class="card">
+    <h2 class="seccion"> Un Ejemplo de codigo</h2>
+        <pre class="codigo">
+            print("Hola mundo")
+        </pre>
+    </section>
 </body>
 </html>
