@@ -1,67 +1,77 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
+
 body{
     margin: 0;
-    background-color: #F58549;
-    background-size: cover;;
+    background-color: #E2E8F0;
+    background-size: cover;
 }
 
 h1{
-    color : #585123;
+    color : #F8FAFC; 
     font-size: 36px;
 }
+
 p{
-    color: #585123;
+    color: #1E293B;
     font-size: 18px;
     line-height: 1.6;
-    
 }
+
 #presentacion{
-    background: linear-gradient(120deg, #B65A32, #f58549);
+    background: linear-gradient(120deg, #1E293B, #334155);
     padding:40px 30px;
     text-align: center;
     width: 100%;
-
 }
+
 .letra-pre{
-    color: #585123;
+    color: #93C5FD; 
     font-weight: bold;
 }
+
 .card {
-  background-color: #f4f4f4;
-  width: 80%;
-  margin: 20px auto;
-  padding: 25px;
-  border-radius: 15px;
+    background-color: #F8FAFC; 
+    width: 80%;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 15px;
 }
+
 .seccion{
-    color: #F58549;
+    color: #3B82F6;
     margin-bottom: 15px;
-    border-left: 6px solid #F2A65A;
+    border-left: 6px solid #60A5FA;
     padding-left: 10px;
 }
+
 .letra{
-    color: #F2A65A;
+    color: #2563EB;
     font-weight: bold;
 }
+
 em{
-    color: #772F1A;
+    color: #334155;
     font-style: italic;
 }
+
 li{
     margin-bottom: 8px;
-    color: #B65A32;
+    color: #1E293B;
 }
+
 ul{
     margin-left: 25px;
     margin-top: 10px;
 }
+
 ol{
     margin-left: 25px;
     margin-top: 10px;
 }
+
 .tabla-juegos{
     border-collapse: collapse;
     width: 100%;
@@ -69,20 +79,81 @@ ol{
 }
 
 th{
-    background-color: #585123;
-    color: #EEC170;
+    background-color: #1E293B;
+    color: #F8FAFC;
     padding: 12px;
-    border: 1px solid #772F1A;
+    border: 1px solid #334155;
 }
+
 td{
-    background-color: #EEC170;
+    background-color: #DBEAFE;
     padding: 12px;
     text-align: center;
-    border: 1px solid #772F1A;
+    border: 1px solid #334155;
 }
+
 .codigo {
-  background-color: #585123;
-  color: #EEC170;
-  padding: 10px;
-  border-radius: 10px;
+    background-color: #1E293B;
+    color: #93C5FD;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav {
+    margin: 10px;
+    background-color: #334155;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: #F8FAFC;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0px 10px ;
+}
+
+nav a:hover {
+    color: #60A5FA;
+    text-decoration: underline;
+}
+
+.card-musica {
+    background-color: #F8FAFC;
+    width: 50%;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.imagen-cantante{
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+h2{
+    color: #1E293B;
+    padding: 5px;
+}
+.volver {
+    display: inline-block;
+    margin: 20px;
+    padding: 8px 15px;
+    background-color: #334155;
+    color: #F8FAFC;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.volver:hover {
+    background-color: #3B82F6;
+}
+figcaption {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #334155;
+    text-align: center;
 }
